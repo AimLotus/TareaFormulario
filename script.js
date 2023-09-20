@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // Aquí puedes realizar las acciones que desees con los datos del cliente, como enviarlos a un servidor o guardarlos en una base de datos.
             // Por ahora, mostraremos un mensaje de confirmación.
-            const mensajeConfirmacion = `Cliente ${nombre} ha sido guardado.`;
+            const mensajeConfirmacion = `Usuario ${nombre} ha sido guardado.`;
             mensaje.textContent = mensajeConfirmacion;
             mensaje.style.display = "block";
         }
