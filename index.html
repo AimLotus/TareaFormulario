@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="cliente-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+            <label for="fechanac">Fecha de nacimiento:</label>
+            <input type="date" id="fechanac">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password">
+            <label for="password2">Repita su Contraseña:</label>
+            <input type="password" id="password2">
+            <button type="submit">Guardar datos</button>
+        </form>
+        <div id="mensaje" style="display: none;"></div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
